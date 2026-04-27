@@ -1,0 +1,62 @@
+## Build results
+bin/
+obj/
+out/
+
+## Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Rider / JetBrains
+.idea/
+*.sln.iml
+
+## VS Code
+.vscode/
+
+## Logs
+*.log
+
+## OS files
+.DS_Store
+Thumbs.db
+
+## NuGet
+*.nupkg
+packages/
+!packages/build/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Publish output
+publish/
+
+## Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+## DotCover
+*.dotCover
+
+## Test results
+TestResults/
+
+## Coverlet
+coverage*
+
+## Others
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+## Environment files (isteğe bağlı)
+.env
+.env.*
