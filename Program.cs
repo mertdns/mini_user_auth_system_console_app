@@ -139,8 +139,13 @@ class User
         }
         if (userToDelete != null)
         {
-            users.Remove(userToDelete);
-            Console.WriteLine($"{username} adlı kullanıcı silindi.");
+            if (!userToDelete.IsAdmin)
+            {
+                users.Remove(userToDelete);
+                Console.WriteLine($"{username} adlı kullanıcı silindi.");
+            }
+            else
+                Console.WriteLine("admin kullanıcıları silinemez");
         }
         else
         {
